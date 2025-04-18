@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>My E-Commerce Store</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+<link rel="stylesheet" href="/ecommerce.css">
+</head>
+
+<body>
+
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">My Store</a>
+     </nav>
+
+     <!-- Main -->
+     <div class="container mt-4">
+          <h2 class="mb-4">Products</h2>
+          <div class="row" id="product-list"></div>
+     </div>
+
+     <!-- Cart Summary -->
+     <div class="cart-summary">
+          <h5>🛒 Cart</h5>
+          <div id="cart-items"></div>
+          <hr />
+          <p><strong>Total: $<span id="cart-total">0.00</span></strong></p>
+     </div>
+
+     <!-- Footer -->
+     <footer class="text-center">
+          <div class="container">
+               <div class="mb-3">
+                    <a href="https://facebook.com" target="_blank" class="text-white mx-2">
+                         <i class="fab fa-facebook fa-lg"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="text-white mx-2">
+                         <i class="fab fa-twitter fa-lg"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="text-white mx-2">
+                         <i class="fab fa-instagram fa-lg"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="text-white mx-2">
+                         <i class="fab fa-linkedin fa-lg"></i>
+                    </a>
+               </div>
+               <p class="mb-0">&copy; 2025 My E-Commerce Store. All rights reserved.</p>
+          </div>
+     </footer>
+
+     <!-- Scripts -->
+     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+     <script src="ecommerce.js"></script>
+     
+</body>
+
+</html>
